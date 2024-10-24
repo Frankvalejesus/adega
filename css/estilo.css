@@ -1,0 +1,116 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    height: 100%; 
+    width: 100%;
+    font-family: sans-serif; 
+}
+
+header{
+    background-color: rgb(224, 13, 13);
+    height: 7.2rem;
+}
+
+.logo {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+ul, li, a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color:rgb(227, 227, 217);
+}
+
+.container {
+    width: 100%;
+    height: 250px;
+    padding-top: 10px;
+    background-color: rgb(216, 209, 9);
+    margin-bottom: 50px;
+}
+
+.banner {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;  
+}
+
+input {
+    font-size: 1.5rem;
+  }
+
+
+button {
+    background-color:  blue;
+    color:  white;
+    border-radius: 5%;
+}
+
+section {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 247, 247);    
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+span {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: rgb(224, 13, 13);
+    text-align: center;
+}
+
+@media (max-width: 600px)  {
+   .container{
+    width: 100%;
+   }
+
+   .banner{
+    width: -100%;
+   }  
+
+   input {
+    font-size: 0.9rem;
+   }
+
+   section {
+    width: 100%;
+    padding: 1px;
+   }
+
+   .card {
+    width: 100%;
+    padding: 1px;
+   }
+
+
+}
+
